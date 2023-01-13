@@ -1,0 +1,112 @@
+*{
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+    
+}
+
+.Header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-position: right bottom ,left ;
+    background-repeat: no-repeat;
+
+
+}
+/* header and navigation style */
+.nav-title{
+
+font-weight: 800;
+font-size: 45px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    margin : 50px 200px;
+}
+
+nav ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    background: #FD6E0A;
+border-radius: 5px;
+font-size: 20px;
+
+}
+/* banner_style{} */
+.banner{
+    display: flex;
+    margin:0 200px;
+    align-items: center;
+}
+.banner_title{
+    font-weight: 700;
+font-size: 85px;
+}
+.banner_subtitle{
+    font-weight: 600;
+font-size: 45px;
+margin-bottom: 20px;
+}
+.banner_dis{
+    font-size: 18px;
+color: #757575;
+margin-bottom: 30px;
+}
+/*  main */
+main{max-width: 1140px;
+    align-items: center;
+    margin : 0 auto;
+
+}
+
+/* main -> section style */
+.about{
+margin-top: 130px;
+background-color: aliceblue;
+border-radius: 10px;
+padding: 130px 150px;
+text-align: center;
+}
+.sec-title{
+    
+    font-weight: 700;
+font-size: 35px;
+margin-bottom: 30px;
+
+}
+.sec-descrip{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* flex er kaj,  */
+.about-info-con{
+display: flex;
+text-align: center;
+justify-content: space-around;
+
+}
+.about-info{
+    font-weight: 400;
+    font-size: 20px;
+    /* margin: 0 20px;==>justifu-cntr diye same kaj korchi */
+}
+.info-title{
+    color: #757575;
+
+}
+.info-desc{font-weight: 700;
+    font-size: 20px
+
+}
