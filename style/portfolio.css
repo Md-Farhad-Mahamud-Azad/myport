@@ -81,7 +81,7 @@ text-align: center;
     
     font-weight: 700;
 font-size: 35px;
-margin-bottom: 30px;
+margin-bottom: 50px;
 
 }
 .sec-descrip{
@@ -108,5 +108,121 @@ justify-content: space-around;
 }
 .info-desc{font-weight: 700;
     font-size: 20px
+}
+/* what i do section */
+.w-i-d{
+margin-top: 130px;
 
 }
+.skill-cont{
+    display: flex;
+    gap: 24px;
+}
+
+.sec-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 35px;
+margin-bottom: 130px;
+}
+.sec-des{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+    
+}
+.imge{
+margin: 30px 30px 30px 0px;
+}
+.skill-title{
+
+    font-weight: 700;
+font-size: 20px;
+}
+.skilldes{
+    padding: 30px;
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+
+}
+.sect-title{
+    font-weight: 700;
+font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.resume{
+margin-top: 130px;
+
+}
+
+/* resume er part */
+.resume-contr{
+    display: flex;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ==================================================== */
+/* contact section */
+
+
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap:100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+/* .contact input[type:text], input[type:email], textarea{ */
+    /* ay line ta bhujar ache */
+ .contact input, textarea{ 
+    margin-bottom: 24px;
+    padding:18px 30px;
+    border:0px;
+}
+.contact .section-title{
+    margin-bottom: 15px;
+}
+
+/* input{
+    height: 64px;
+} 
+(ata arupor comment check kore input box er height thik kora laghbe)*/
+
+
+
+
+
+
+
